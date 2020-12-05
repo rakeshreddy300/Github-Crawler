@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(15,48,42,1);
+    color: white;
+    font-family: lato;
+}
+
+.clearfix{
+    display: table;
+    clear: both;
+}
+/*
+------------------------------------
+           NAVBAR
+------------------------------------
+*/
+
+
+nav{
+    float: left;
+    min-height: 12vh;
+    background: #181716;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+    
+nav h4{
+flex: 1 1 0rem;
+color: white;
+font-weight: bold;
+text-align: center;
+padding: 0.8rem;
+font-size: 2rem;
+}
+
+nav ul{
+flex: 5 1 30rem;
+padding: 0.8rem;
+display: flex;
+justify-content: flex-end;
+font-size: 1.3rem;
+}
+
+nav ul li{    
+list-style: none;
+align-self: center;
+align-content: center;
+}
+    
+nav ul li a{
+text-decoration: none;
+color: white;
+border-radius: 0.1rem;
+padding: 0.4rem 0.9rem;
+}
+
+nav ul li a.active{
+background: white;
+color:#181716;
+}
+
+nav ul li a:hover{
+background: rgb(58, 58, 58);
+color: rgb(228, 228, 228);
+}
+
+
+/*
+------------------------------------
+           FORM
+------------------------------------
+*/
+
+.form{
+    min-width:100px;
+    width:450px;
+    margin: 50px auto;
+    text-align: center;
+
+}
+
+.form label{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.form input[type='text'],input[type='password']{
+    width: 200px;
+    height:40px;
+    display: inline-block;
+
+}
+
+.form button{
+    margin: 15px;
+    padding:5px;
+    height: 30px;
+    /* width:60px; */
+}
+
+
+
+/*
+------------------------------------
+           TABLE
+------------------------------------
+*/
+
+.table{
+    width: 70%;
+    margin: 0 auto;
+    line-height: 1.7;
+}
+
+th{
+    width: 150px;
+    font-size: 16px;
+    height: 40px;
+    text-align: left;
+}
+
+.table{
+    background-color: white;
+    color: black;
+}
+
+.tr{
+    min-width: 0px;
+    height: 65px;
+}
+
+.td{
+    min-width: 0px;
+    width: 150px;
+}
+
